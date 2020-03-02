@@ -16,7 +16,6 @@ steps:
       - go get
       - go get github.com/360EntSecGroup-Skylar/goreporter
       - goreporter -p ./ -f html -r /var/reports/
-
  - name: build
    image: golang
    commands:
